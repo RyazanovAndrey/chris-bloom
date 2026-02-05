@@ -40,7 +40,7 @@ export default function Page() {
                             <motion.p variants={fadeIn} className='text-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dicta fugit reprehenderit eaque esse qui voluptatem provident voluptatum nostrum ipsa.</motion.p>
                         </div>
                         <div className="bg-main absolute bottom-0 left-0 rounded-tr-2xl p-5">
-                            <Image src={'/page-banner-shape.svg'} alt='' width={100} height={100} />
+                            <Image src={'page-banner-shape.svg'} alt='' width={100} height={100} />
                         </div>
                         <div className="absolute bg-main p-5 bottom-0 right-0 text-desc rounded-tl-2xl">
                             Scroll down to see all the works

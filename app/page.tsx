@@ -80,12 +80,12 @@ export default function Page() {
             </motion.div>
             <motion.div variants={fadeIn}>
               <h3 className="text-3xl flex items-center gap-x-5 mb-5">
-                <Image src={'/shape-2.svg'} width={30} height={30} alt="" />
+                <Image src={'shape-2.svg'} width={30} height={30} alt="" />
                 <span>Introduction</span>
               </h3>
               <p className="text-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni est unde molestias adipisci quas aut perferendis neque, recusandae obcaecati voluptatem ducimus officia officiis rerum aliquid ipsum ullam possimus. Eius, modi esse. Ut laboriosam vitae commodi doloremque voluptate nostrum tenetur. Dolores doloribus at quia voluptatum maiores rem dolorem veritatis placeat recusandae.</p>
               <h3 className="text-3xl flex items-center gap-x-5 mt-10">
-                <Image src={'/shape-2.svg'} width={30} height={30} alt="" />
+                <Image src={'shape-2.svg'} width={30} height={30} alt="" />
                 <span>Contact Information</span>
               </h3>
               <div className="mt-10 flex justify-between">
@@ -144,7 +144,7 @@ export default function Page() {
               <div className="space-y-2 mt-5">
                 {servicesHeightligts.map(item => {
                   return <motion.div variants={fadeIn} className="border border-white/20 flex items-center gap-3 p-3">
-                    <Image src={'/star-shape.svg'} width={20} height={20} alt="" />
+                    <Image src={'star-shape.svg'} width={20} height={20} alt="" />
                     <div className="">{item.label}</div>
                   </motion.div>
                 })}

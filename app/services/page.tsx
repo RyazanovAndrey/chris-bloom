@@ -34,7 +34,7 @@ export default function Page() {
                             <motion.p variants={fadeIn} className='text-desc'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dicta fugit reprehenderit eaque esse qui voluptatem provident voluptatum nostrum ipsa.</motion.p>
                         </div>
                         <div className="bg-main absolute bottom-0 left-0 rounded-tr-2xl p-5">
-                            <Image src={'/page-banner-shape.svg'} alt='' width={100} height={100} />
+                            <Image src={'page-banner-shape.svg'} alt='' width={100} height={100} />
                         </div>
                         <div className="absolute bg-main p-5 bottom-0 right-0 text-desc rounded-tl-2xl">
                             Scroll down to see all the services
@@ -46,7 +46,7 @@ export default function Page() {
                             <motion.p variants={fadeIn} className="text-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi distinctio alias pariatur laboriosam magni corporis sapiente omnis natus rem. Maxime nihil dolorem molestiae quasi voluptas officia nemo excepturi unde voluptatibus quisquam assumenda amet animi, nisi exercitationem cumque quod quaerat? Culpa incidunt a ab mollitia aspernatur illo ipsum placeat, corrupti dignissimos.</motion.p>
                         </div>
                         <motion.div variants={fadeIn}>
-                            <Image src={'/services-banner-1.png'} alt="" width={600} height={600} />
+                            <Image src={'services-banner-1.png'} alt="" width={600} height={600} />
                         </motion.div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ export default function Page() {
                         <div className="space-y-2">
                             {servicePriceItems[0].texts.map(item => (
                                 <motion.div variants={fadeIn} className="border border-white/20 p-5 flex items-center gap-x-3">
-                                    <Image src={'/star-shape.svg'} width={20} height={20} alt="" />
+                                    <Image src={'star-shape.svg'} width={20} height={20} alt="" />
                                     <p>{item.text}</p>
                                 </motion.div>
                             ))}
@@ -83,7 +83,7 @@ export default function Page() {
                         <div className="space-y-2">
                             {servicePriceItems[1].texts.map(item => (
                                 <motion.div variants={fadeIn} className="border border-white/20 p-5 flex items-center gap-x-3">
-                                    <Image src={'/star-shape.svg'} width={20} height={20} alt="" />
+                                    <Image src={'star-shape.svg'} width={20} height={20} alt="" />
                                     <p>{item.text}</p>
                                 </motion.div>
                             ))}
@@ -98,7 +98,7 @@ export default function Page() {
                         <div className="space-y-2">
                             {servicePriceItems[2].texts.map(item => (
                                 <motion.div variants={fadeIn} className="border border-white/20 p-5 flex items-center gap-x-3">
-                                    <Image src={'/star-shape.svg'} width={20} height={20} alt="" />
+                                    <Image src={''} width={20} height={20} alt="" />
                                     <p>{item.text}</p>
                                 </motion.div>
                             ))}
@@ -122,7 +122,7 @@ export default function Page() {
                             <motion.p variants={fadeIn} className="text-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi distinctio alias pariatur laboriosam magni corporis sapiente omnis natus rem. Maxime nihil dolorem molestiae quasi voluptas officia nemo excepturi unde voluptatibus quisquam assumenda amet animi, nisi exercitationem cumque quod quaerat? Culpa incidunt a ab mollitia aspernatur illo ipsum placeat, corrupti dignissimos.</motion.p>
                         </div>
                         <motion.div variants={fadeInOpacity}>
-                            <Image src={'/services-banner-2.jpg'} alt="" width={600} height={600} />
+                            <Image src={'services-banner-2.jpg'} alt="" width={600} height={600} />
                         </motion.div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@ export default function Page() {
                         <div className="space-y-2">
                             {servicePriceItemsSecond[0].texts.map(item => (
                                 <motion.div variants={fadeIn} className="border border-white/20 p-5 flex items-center gap-x-3">
-                                    <Image src={'/star-shape.svg'} width={20} height={20} alt="" />
+                                    <Image src={''} width={20} height={20} alt="" />
                                     <p>{item.text}</p>
                                 </motion.div>
                             ))}
@@ -158,7 +158,7 @@ export default function Page() {
                         <div className="space-y-2">
                             {servicePriceItemsSecond[1].texts.map(item => (
                                 <motion.div variants={fadeIn} className="border border-white/20 p-5 flex items-center gap-x-3">
-                                    <Image src={'/star-shape.svg'} width={20} height={20} alt="" />
+                                    <Image src={'star-shape.svg'} width={20} height={20} alt="" />
                                     <p>{item.text}</p>
                                 </motion.div>
                             ))}
@@ -173,7 +173,7 @@ export default function Page() {
                         <div className="space-y-2">
                             {servicePriceItemsSecond[2].texts.map(item => (
                                 <motion.div variants={fadeIn} className="border border-white/20 p-5 flex items-center gap-x-3">
-                                    <Image src={'/star-shape.svg'} width={20} height={20} alt="" />
+                                    <Image src={'star-shape.svg'} width={20} height={20} alt="" />
                                     <p>{item.text}</p>
                                 </motion.div>
                             ))}
@@ -197,7 +197,7 @@ export default function Page() {
                             <motion.p variants={fadeIn} className="text-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi distinctio alias pariatur laboriosam magni corporis sapiente omnis natus rem. Maxime nihil dolorem molestiae quasi voluptas officia nemo excepturi unde voluptatibus quisquam assumenda amet animi, nisi exercitationem cumque quod quaerat? Culpa incidunt a ab mollitia aspernatur illo ipsum placeat, corrupti dignissimos.</motion.p>
                         </div>
                         <motion.div variants={fadeInOpacity}>
-                            <Image src={'/services-banner-3.jpg'} alt="" width={600} height={600} />
+                            <Image src={'services-banner-3.jpg'} alt="" width={600} height={600} />
                         </motion.div>
                     </div>
                 </div>
@@ -218,7 +218,7 @@ export default function Page() {
                         <div className="space-y-2">
                             {servicePriceItemsThird[0].texts.map(item => (
                                 <motion.div variants={fadeIn} className="border border-white/20 p-5 flex items-center gap-x-3">
-                                    <Image src={'/star-shape.svg'} width={20} height={20} alt="" />
+                                    <Image src={'star-shape.svg'} width={20} height={20} alt="" />
                                     <p>{item.text}</p>
                                 </motion.div>
                             ))}
@@ -233,7 +233,7 @@ export default function Page() {
                         <div className="space-y-2">
                             {servicePriceItemsThird[1].texts.map(item => (
                                 <motion.div variants={fadeIn} className="border border-white/20 p-5 flex items-center gap-x-3">
-                                    <Image src={'/star-shape.svg'} width={20} height={20} alt="" />
+                                    <Image src={'star-shape.svg'} width={20} height={20} alt="" />
                                     <p>{item.text}</p>
                                 </motion.div>
                             ))}
@@ -248,7 +248,7 @@ export default function Page() {
                         <div className="space-y-2">
                             {servicePriceItemsThird[2].texts.map(item => (
                                 <motion.div variants={fadeIn} className="border border-white/20 p-5 flex items-center gap-x-3">
-                                    <Image src={'/star-shape.svg'} width={20} height={20} alt="" />
+                                    <Image src={'star-shape.svg'} width={20} height={20} alt="" />
                                     <p>{item.text}</p>
                                 </motion.div>
                             ))}
