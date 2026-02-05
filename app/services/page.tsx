@@ -98,7 +98,7 @@ export default function Page() {
                         <div className="space-y-2">
                             {servicePriceItems[2].texts.map(item => (
                                 <motion.div variants={fadeIn} className="border border-white/20 p-5 flex items-center gap-x-3">
-                                    <Image src={''} width={20} height={20} alt="" />
+                                    <Image src={'star-shape.svg'} width={20} height={20} alt="" />
                                     <p>{item.text}</p>
                                 </motion.div>
                             ))}
@@ -143,7 +143,7 @@ export default function Page() {
                         <div className="space-y-2">
                             {servicePriceItemsSecond[0].texts.map(item => (
                                 <motion.div variants={fadeIn} className="border border-white/20 p-5 flex items-center gap-x-3">
-                                    <Image src={''} width={20} height={20} alt="" />
+                                    <Image src={'star-shape.svg'} width={20} height={20} alt="" />
                                     <p>{item.text}</p>
                                 </motion.div>
                             ))}
